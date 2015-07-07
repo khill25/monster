@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U7h-hU-a9C"/>
+                        <viewControllerLayoutGuide type="bottom" id="6FY-DN-kVr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8ec-Ev-Xny">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vt9-kJ-Me4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vt9-kJ-Me4" firstAttribute="leading" secondItem="8ec-Ev-Xny" secondAttribute="leading" id="TWM-1x-LTX"/>
+                            <constraint firstAttribute="trailing" secondItem="Vt9-kJ-Me4" secondAttribute="trailing" id="oBR-nM-CPD"/>
+                            <constraint firstItem="6FY-DN-kVr" firstAttribute="top" secondItem="Vt9-kJ-Me4" secondAttribute="bottom" id="udL-VG-rny"/>
+                            <constraint firstItem="Vt9-kJ-Me4" firstAttribute="top" secondItem="8ec-Ev-Xny" secondAttribute="top" id="uqy-a1-hAY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scnView" destination="Vt9-kJ-Me4" id="iR6-Io-45P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
