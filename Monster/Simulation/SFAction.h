@@ -15,7 +15,13 @@
 @property (nonatomic) NSArray* incomingCosts;
 @property (nonatomic) NSArray* outgoingCosts;
 @property (nonatomic) NSArray* rewards;
-@property (nonatomic) double inherentValue;
+
+@property (nonatomic) double maxTimeToComplete;
+@property (nonatomic) double curentAverageTimeToComplete;
+@property (nonatomic) double currentTime;
+@property (nonatomic) double needThresholdUpperBound;
+@property (nonatomic) double needThresholdLowerBound;
+@property (nonatomic) double currentNeedValue;
 
 /*
  * An action is surrounded by a cloud of several clumps of consequences.
