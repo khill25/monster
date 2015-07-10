@@ -16,6 +16,6 @@
 -(void)step;
 -(void)loop:(double)simulationTime;
 -(void)simulate;
--(double)currentGameTime;
+-(double)currentSimulationTime;
 
 @end

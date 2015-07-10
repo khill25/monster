@@ -9,6 +9,7 @@
 #import "SFMonster.h"
 #import "SFMood.h"
 #import "SFFood.h"
+#import "SFAction.h"
 
 @implementation SFMonster
 
@@ -34,6 +35,14 @@
      * if happiness > 80 and hunger > 50 content, make goals, practice
      */
 
+
+
+}
+
+-(double)step:(double)currentSimTime stepLength:(double)stepLength maxRuntime:(double)maxRuntime {
+    double now = [[NSDate date] timeIntervalSince1970];
+    [self simulate];
+    return [[NSDate date] timeIntervalSince1970] - now;
 }
 
 @end

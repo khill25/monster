@@ -25,6 +25,7 @@
 		2F9C8EF91B4C659800DC15E4 /* SFPersonality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C8EF81B4C659800DC15E4 /* SFPersonality.m */; };
 		2F9C8EFC1B4C80B800DC15E4 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C8EFB1B4C80B800DC15E4 /* MyScene.sks */; };
 		61182234E8334B8A11812FFC /* SFFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 611824F34474A01FAF2C6BDC /* SFFood.m */; };
+		611823B9DD920F7ED3CB7AA3 /* SFAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 61182841AA691F8812400B52 /* SFAttribute.m */; };
 		6118269DFB11349456140FE2 /* SFMood.m in Sources */ = {isa = PBXBuildFile; fileRef = 611828CD13D256777C181DE1 /* SFMood.m */; };
 		61182791D7B0624A1256FCE3 /* SFSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61182F454B32946C49AC5B96 /* SFSimulation.m */; };
 		611829F7A8818722CB7CB482 /* SFConsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 61182971C4B2E636D92F9C6C /* SFConsequence.m */; };
@@ -71,11 +72,14 @@
 		6118222506438E403369619A /* SFAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAction.h; sourceTree = "<group>"; };
 		611822C880272884C1B090E8 /* SFMood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMood.h; sourceTree = "<group>"; };
 		611823D4221551BECEF534E4 /* SFAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAction.m; sourceTree = "<group>"; };
+		611823E62110AE3C87A0C9F5 /* SFSimulatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSimulatable.h; sourceTree = "<group>"; };
 		611824F34474A01FAF2C6BDC /* SFFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFood.m; sourceTree = "<group>"; };
 		611827A240A956F2B19571AD /* SFSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSimulation.h; sourceTree = "<group>"; };
+		61182841AA691F8812400B52 /* SFAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFAttribute.m; path = Simulation/SFAttribute.m; sourceTree = "<group>"; };
 		61182857130F6057230D99A8 /* SFFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFood.h; sourceTree = "<group>"; };
 		611828CD13D256777C181DE1 /* SFMood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMood.m; sourceTree = "<group>"; };
 		61182971C4B2E636D92F9C6C /* SFConsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFConsequence.m; sourceTree = "<group>"; };
+		61182B202D3483876178094B /* SFAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFAttribute.h; path = Simulation/SFAttribute.h; sourceTree = "<group>"; };
 		61182B420D72A4EF8C046CCE /* SFConsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFConsequence.h; sourceTree = "<group>"; };
 		61182F454B32946C49AC5B96 /* SFSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSimulation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +189,8 @@
 				611822C880272884C1B090E8 /* SFMood.h */,
 				611824F34474A01FAF2C6BDC /* SFFood.m */,
 				61182857130F6057230D99A8 /* SFFood.h */,
+				61182841AA691F8812400B52 /* SFAttribute.m */,
+				61182B202D3483876178094B /* SFAttribute.h */,
 			);
 			name = Monster;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 				61182B420D72A4EF8C046CCE /* SFConsequence.h */,
 				611827A240A956F2B19571AD /* SFSimulation.h */,
 				61182F454B32946C49AC5B96 /* SFSimulation.m */,
+				611823E62110AE3C87A0C9F5 /* SFSimulatable.h */,
 			);
 			path = Simulation;
 			sourceTree = "<group>";
@@ -314,6 +321,7 @@
 				61182E877688F6AF7B63BC28 /* SFAction.m in Sources */,
 				611829F7A8818722CB7CB482 /* SFConsequence.m in Sources */,
 				61182791D7B0624A1256FCE3 /* SFSimulation.m in Sources */,
+				611823B9DD920F7ED3CB7AA3 /* SFAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

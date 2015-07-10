@@ -16,9 +16,14 @@
 @property (nonatomic) NSArray* outgoingCosts;
 @property (nonatomic) NSArray* rewards;
 
+// This might be wrong...
 @property (nonatomic) double maxTimeToComplete;
 @property (nonatomic) double curentAverageTimeToComplete;
 @property (nonatomic) double currentTime;
+
+// This might also be wrong
+// as this depends on whether there is value in a task or in the rewards provided...
+// If the task it's own reward?
 @property (nonatomic) double needThresholdUpperBound;
 @property (nonatomic) double needThresholdLowerBound;
 @property (nonatomic) double currentNeedValue;
