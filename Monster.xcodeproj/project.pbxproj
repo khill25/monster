@@ -29,6 +29,7 @@
 		6118269DFB11349456140FE2 /* SFMood.m in Sources */ = {isa = PBXBuildFile; fileRef = 611828CD13D256777C181DE1 /* SFMood.m */; };
 		61182791D7B0624A1256FCE3 /* SFSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61182F454B32946C49AC5B96 /* SFSimulation.m */; };
 		611829F7A8818722CB7CB482 /* SFConsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 61182971C4B2E636D92F9C6C /* SFConsequence.m */; };
+		61182D048E7A32E935749151 /* SFCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6118296B277E3465148C27D7 /* SFCompress.m */; };
 		61182E877688F6AF7B63BC28 /* SFAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 611823D4221551BECEF534E4 /* SFAction.m */; };
 /* End PBXBuildFile section */
 
@@ -73,11 +74,13 @@
 		611822C880272884C1B090E8 /* SFMood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMood.h; sourceTree = "<group>"; };
 		611823D4221551BECEF534E4 /* SFAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAction.m; sourceTree = "<group>"; };
 		611823E62110AE3C87A0C9F5 /* SFSimulatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSimulatable.h; sourceTree = "<group>"; };
+		611823E7C357D64755242F33 /* SFCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCompress.h; sourceTree = "<group>"; };
 		611824F34474A01FAF2C6BDC /* SFFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFood.m; sourceTree = "<group>"; };
 		611827A240A956F2B19571AD /* SFSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSimulation.h; sourceTree = "<group>"; };
 		61182841AA691F8812400B52 /* SFAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFAttribute.m; path = Simulation/SFAttribute.m; sourceTree = "<group>"; };
 		61182857130F6057230D99A8 /* SFFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFood.h; sourceTree = "<group>"; };
 		611828CD13D256777C181DE1 /* SFMood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMood.m; sourceTree = "<group>"; };
+		6118296B277E3465148C27D7 /* SFCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCompress.m; sourceTree = "<group>"; };
 		61182971C4B2E636D92F9C6C /* SFConsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFConsequence.m; sourceTree = "<group>"; };
 		61182B202D3483876178094B /* SFAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFAttribute.h; path = Simulation/SFAttribute.h; sourceTree = "<group>"; };
 		61182B420D72A4EF8C046CCE /* SFConsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFConsequence.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				2F9C8EBF1B4C49F800DC15E4 /* Supporting Files */,
 				2F9C8EFB1B4C80B800DC15E4 /* MyScene.sks */,
 				611821DA158E6F0A232A17C7 /* Simulation */,
+				6118296B277E3465148C27D7 /* SFCompress.m */,
+				611823E7C357D64755242F33 /* SFCompress.h */,
 			);
 			path = Monster;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				611829F7A8818722CB7CB482 /* SFConsequence.m in Sources */,
 				61182791D7B0624A1256FCE3 /* SFSimulation.m in Sources */,
 				611823B9DD920F7ED3CB7AA3 /* SFAttribute.m in Sources */,
+				61182D048E7A32E935749151 /* SFCompress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

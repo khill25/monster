@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SFCompress.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+//    NSString* input = @"This is only a test. This is only a test. Of the emergency broadcast compression system.";
+//    NSData* data = [input dataUsingEncoding:NSUTF8StringEncoding];
+//    [SFCompress compressDataStream:data saveAs:@"output"];
+
     return YES;
 }
 
